@@ -353,7 +353,7 @@ html{
     background: #cbc3c3;
 }
 
-@media only screen and (max-width: 1151px) {
+@media only screen and (max-width: 820px) {
     .logo{
         width: 50%;
     }
