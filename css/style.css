@@ -55,7 +55,7 @@ html{
     border-radius: 9px;
 }
 .background{
-    background: rgba(0, 0, 0, 0.7) url('../img/spacex.png');
+    background: rgba(0, 0, 0, 0.836) url('../img/spacex.png');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -116,7 +116,13 @@ html{
 }
 .btn:hover {
     background-color: #bac6bab6;
-  }
+}
+.skills{
+    background: url(../img/skillsBG.jpg);
+    background-size: cover;
+    /* background-blend-mode: hard-light; */
+    /* background-position: center; */
+}
 .section{
     /* height: 450px; */
     display: flex;
@@ -169,14 +175,23 @@ html{
     border-radius: 5px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } */
-.textFooter{
-    text-align: center;
-    padding: 15px 0;
-    font-family: 'Ubuntu';
+.myFooter{
+    background: #000;
     display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    text-align: center;
     justify-content: center;
+}
+.textFooter{
+    width: 33%;
+    font-family: 'Ubuntu';
     color: white;
 }
+.textFooter .icons .rightPart i{
+    padding: 0 10px;
+}
+
 .burger{
     display: none;
     position: absolute;
@@ -192,7 +207,7 @@ html{
 }
 .social{
     width: 100%;
-    background: #e9ebe9 center;
+    background: whitesmoke;
     background-size: cover;
     padding-bottom: 50px;
 }
@@ -254,7 +269,8 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: white;
+    background: url(..//img/skillsBG.jpg);
+    background-size: cover;
 }
 .contact .content{
     max-width: 800px;
@@ -385,7 +401,7 @@ html{
         opacity: 0;
     }
     .box-main{
-        flex-direction: column-reverse;
+        flex-direction: column;
         max-width: 100%;
     }
     .section{
@@ -416,6 +432,15 @@ html{
     .contactContainer .contactInfo, .contactForm{
         width: 100%;
     }
+    .myFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .myFooter .textFooter{
+        width: 100%;
+        padding: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 972px){
@@ -426,6 +451,7 @@ html{
     .social-items{
         margin: 22px -92px;
     }
-
+    
 } 
+    
 
