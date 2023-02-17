@@ -204,7 +204,15 @@ html{
     color: white;
 }
 .textFooter .icons .rightPart i{
-    padding: 0 10px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.textFooter .icons .rightPart i:hover{
+    box-shadow: 0 0 10px 3px #4f8de2;
 }
 
 .burger{
