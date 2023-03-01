@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/60a745a8b5.js" crossorigin="anonymous"></script>
-    <title>My-Website</title>
+    <title>Mayur | Portfolio</title>
 </head>
 <body>
-    <nav class="navbar background hNav-resp">
+    <nav  id="navBar" class="navbar background hNav-resp">
         <ul class="navlist v-class-resp">
             <div class="logo"><img src="img/logo.png" alt="logo"></div>
             <li><a href="#Home">Home</a></li>
@@ -16,11 +16,7 @@
             <li><a href="#Coding_Profiles">Coding Profiles</a></li>
             <li><a href="#Contact-Us">Contact-Me</a></li>
         </ul>
-        <div class="rightNav v-class-resp">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">search</button>
-        </div>
-        <div class="burger">
+        <div class="background burger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
@@ -28,26 +24,24 @@
     </nav>
     <section class="background firstSection" id="Home">
         <div class="box-main">
-            <div class="secondHalf">
-                <img src="img/logo.png" alt="myImage">
-            </div>
             <div class="firstHalf">
                 <p class="textBig">I'm Mayureshwar Shiwal</p>
-                <p class="textSmall">Proficient in C++, DSA, Web Development and System Designing. Ability to translate business requirements into innovative software solutions. Excellent teamwork,
-                    interpersonal and communication skills.
-                    </p>
+                <p class="textSmall">Proficient in <span class="autoType"></span>
+                </p>
                 <div class="buttons">
                     <button class="btn" onclick="window.location.href='https://www.linkedin.com/in/mayureshwar-shiwal-a396a01b6/';">Linked-In</button>
                     <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1wLtccbspvEtUhngPCIfI5dTNxB_-SPbn/view?usp=share_link';">Resume</button>
                 </div>
             </div>
+            <img src="img/people-building-metaverse.png" alt="">
+            
         </div>
     </section>
     <div class="skills">
         <section class="section" id="Proficiency">
             <div class="parSubPara">
-                <p class="sectionTag textBig">C++</p>
-                <p class="sectionSubTag textSmall">C++ (pronounced "C plus plus") is a high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms.</p>
+                <p class="sectionTag ">C++</p>
+                <p class="sectionSubTag">C++ (pronounced "C plus plus") is a high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms.</p>
             </div>
                 <div class="thumbnail">
                     <img src="https://source.unsplash.com/640x463/?Coding" alt="laptop Image" class="imgFluid">
@@ -56,8 +50,8 @@
         <hr>
         <section class="section secLeft">
             <div class="parSubPara">
-                <p class="sectionTag textBig">Data Structures and Algorithms</p>
-                <p class="sectionSubTag textSmall">In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data, i.e., it is an algebraic structure about data.
+                <p class="sectionTag">Data Structures and Algorithms</p>
+                <p class="sectionSubTag ">In computer science, a data structure is a data organization, management, and storage format that is usually chosen for efficient access to data. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data, i.e., it is an algebraic structure about data.
                     Data structures serve as the basis for abstract data types (ADT). The ADT defines the logical form of the data type. The data structure implements the physical form of the data type.
                     Different types of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.
                 </p>
@@ -69,8 +63,8 @@
         <hr>
         <section class="section">
             <div class="parSubPara">
-                <p class="sectionTag textBig">System Designing</p>
-                <p class="sectionSubTag textSmall">Systems design is the process of defining elements of a system like modules, architecture, components and their interfaces and data for a system based on the specified requirements. It is the process of defining, developing and designing systems which satisfies the specific needs and requirements of a business or organization.
+                <p class="sectionTag ">System Designing</p>
+                <p class="sectionSubTag ">Systems design is the process of defining elements of a system like modules, architecture, components and their interfaces and data for a system based on the specified requirements. It is the process of defining, developing and designing systems which satisfies the specific needs and requirements of a business or organization.
                     A systemic approach is required for a coherent and well-running system. Bottom-Up or Top-Down approach is required to take into account all related variables of the system. A designer uses the modelling languages to express the information and knowledge in a structure of system that is defined by a consistent set of rules and definitions. The designs can be defined in graphical or textual modelling languages.
                 </p>
             </div>
@@ -81,8 +75,8 @@
         <hr>
         <section class="section secLeft">
             <div class="parSubPara">
-                <p class="sectionTag textBig">Web Development</p>
-                <p class="sectionSubTag textSmall">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. 
+                <p class="sectionTag ">Web Development</p>
+                <p class="sectionSubTag ">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. 
                     There are three kinds of Web developer specialization: front-end developer, back-end developer, and full-stack developer. Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers deal with the servers. Since the commercialization of the Web with Tim Berners-Lee developing the World Wide Web at CERN, the industry has boomed and has become one of the most used technologies ever.</p>
             </div>
                 <div class="thumbnail">
@@ -174,7 +168,7 @@
     </section>
     <footer class="myFooter">
         <div class="textFooter">
-            <span class="leftPart"> Designed by Mayureshwar Shiwal</span>
+            <span class="leftPart"> Designed and Developed by <span class="leftPart-1">Mayureshwar Shiwal</span></span>
         </div>
         <div class="textFooter">
             <span class="MiddlePart">Copyright &copy; 2023 - MS</span> 
@@ -190,8 +184,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/obfuscated.js"></script>
+    <script src="js/resp.js"></script>
     <!-- <script src="js/resp.js"></script> -->
 </body>
 </html>
