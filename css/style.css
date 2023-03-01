@@ -71,6 +71,19 @@ html{
     color: white;
     box-shadow: 0 0 10px 5px #333;
 }
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
 .firstSection{
     height: 100vh;
 }
@@ -218,19 +231,7 @@ html{
     box-shadow: 0 0 10px 3px #e7a63e;
 }
 
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-}
+
 .social{
     width: 100%;
     background: whitesmoke;
