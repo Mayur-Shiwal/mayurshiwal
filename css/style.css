@@ -61,7 +61,7 @@ html{
 }
 .bgColor{
     transition: all 1.3s;
-    background-color: white;
+    background-color: rgb(51, 47, 47);
     color: black;
     box-shadow: 0 0 10px 5px #333;
 }
