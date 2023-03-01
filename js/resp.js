@@ -21,8 +21,8 @@ window.addEventListener("scroll", ()=>{
     var navbar = document.getElementById("navBar");
     var scrollValue = window.scrollY;
     // console.log(scrollValue);
-    if(scrollValue < 10) navbar.classList.remove('bgColor');
-    else navbar.classList.add('bgColor');
+    if(scrollValue < 10) navbar.classList.remove("bgColor");
+    else navbar.classList.add("bgColor");
 });
 
 

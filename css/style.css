@@ -12,22 +12,17 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
     font-size: 22px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .logo img{
     width: 17%;
-    /* border: 3px solid white;
-    border-radius: 50px; */
-}
-.background{
-    background: rgba(32, 32, 32, 0.836) url('../img/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
+    border: 3px solid white;
+    border-radius: 50px;
 }
 .navbar{
+    background: rgb(41,41,41);
+    background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(47,47,47,1) 50%, rgba(51,51,51,1) 100%);
     display: flex;
     width: 100%;
     align-items: center;
@@ -45,10 +40,11 @@ html{
     list-style: none;
     padding: 14px 20px;
 }
+
 .navlist li a{
     position: relative;
     text-decoration: none;
-    color: gainsboro;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navlist li a:after{
@@ -65,16 +61,31 @@ html{
     width: 100%;
     /* background-color: gray; */
 }
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
 .bgColor{
     transition: all 1.3s;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    box-shadow: 0 0 10px 5px #333;
+    background-color: black;
+    color: #000;
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
 }
 .firstSection{
     height: 100vh;
 }
 .box-main{
+    background: rgb(41,41,41);
+    background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(47,47,47,1) 50%, rgba(51,51,51,1) 100%);
     width: 100%;
     height: 100vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -131,7 +142,9 @@ html{
     box-shadow: 0 0 5px gray;
 }
 .skills{
-    background: url(../img/skillsBG.jpg);
+    background-color: #f4f7f7;
+    background-image: linear-gradient(90deg, #f4f7f7 0%, #dcdcf9 100%);
+    
     background-size: cover;
     /* background-blend-mode: hard-light; */
     /* background-position: center; */
@@ -191,7 +204,8 @@ html{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } */
 .myFooter{
-    background: #000;
+    background: rgb(41,41,41);
+    background: linear-gradient(90deg, rgba(41,41,41,1) 0%, rgba(47,47,47,1) 50%, rgba(51,51,51,1) 100%);
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
@@ -215,25 +229,15 @@ html{
     transition: 0.2s;
 }
 .textFooter .icons .rightPart i:hover{
-    box-shadow: 0 0 10px 3px #e7a63e;
+    box-shadow: 0 0 10px 3px #1f1e1e;
 }
 
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
-.line{
-    width: 33px;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
-}
+
 .social{
     width: 100%;
-    background: whitesmoke;
+    background-color: #f4f7f7;
+    background-image: linear-gradient(90deg, #f4f7f7 0%, #dcdcf9 100%);
+    
     background-size: cover;
     padding-bottom: 50px;
 }
@@ -256,7 +260,7 @@ html{
     margin: 10px 0;
     text-align: center;
     padding: 20px 0;
-    background-color: white;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
     /* border: 1px solid black; */
     border-radius: 10px;
     box-shadow: 0 0 8px 3px grey;
@@ -301,7 +305,9 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(..//img/skillsBG.jpg);
+    background-color: #f4f7f7;
+    background-image: linear-gradient(90deg, #f4f7f7 0%, #dcdcf9 100%);
+    
     background-size: cover;
 }
 .contact .content{
@@ -335,16 +341,16 @@ html{
     padding: 15px 11px;
     display: flex;
 }
-.contactContainer .contactInfo .box .icons{
+.contactContainer .contactInfo .box img{
     min-width: 60px;
     height: 60px;
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     font-size: 22px;
-    box-shadow: 0 0 5px 2px gray;
+    /* box-shadow: 0 0 5px 2px gray; */
 }
 .contactContainer .contactInfo .box .text{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -417,32 +423,33 @@ html{
         flex-direction: column;
         height: 332px;
         transition: all 0.6s ease-out;
-        background: url(/img/bg.png);
-    }
-    .bgColor{
-        transition: all 1.3s;
-        background-color: rgb(0, 0, 0);
-        color: white;
-        box-shadow: 0 0 10px 5px #333;
     }
     .rightNav{
         text-align: center;
     }
     .burger{
         display: block;
+        background-color: #000;
+    }
+    .bgColor{
+        transition: all 1.3s;
+        background-color: black;
+        color: #000;
+        box-shadow: 0 0 10px 3px rgb(0, 0, 0);
     }
     .hNav-resp{
         height: 70px;
     }
     .v-class-resp{
         opacity: 0;
+        color: #000;
     }
     .box-main{
         flex-direction: column-reverse;
         max-width: 100%;
     }
     .box-main img{
-        max-width: 50%;
+        max-width: 70%;
     }
     .firstHalf{
         width: 80%;
