@@ -22,7 +22,7 @@ html{
     border-radius: 50px; */
 }
 .background{
-    background: rgba(32, 32, 32, 0.836) url('../img/bg.png');
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -68,7 +68,7 @@ html{
 .bgColor{
     transition: all 1.3s;
     background-color: black;
-    /* color: white; */
+    color: white;
     box-shadow: 0 0 10px 5px #333;
 }
 .burger{
