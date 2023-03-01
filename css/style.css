@@ -39,6 +39,7 @@ html{
     list-style: none;
     padding: 14px 20px;
 }
+
 .navlist li a{
     position: relative;
     text-decoration: none;
@@ -59,18 +60,18 @@ html{
     width: 100%;
     /* background-color: gray; */
 }
-.bgColor{
-    transition: all 1.3s;
-    background-color: rgb(51, 47, 47);
-    color: black;
-    box-shadow: 0 0 10px 5px #333;
-}
 .burger{
     display: none;
     position: absolute;
     cursor: pointer;
     right: 5%;
     top: 15px;
+}
+.bgColor{
+    transition: all 1.3s;
+    background-color: white;
+    color: #000;
+    box-shadow: 0 0 10px 5px #333;
 }
 .line{
     width: 33px;
@@ -413,19 +414,19 @@ html{
         flex-direction: column;
         height: 332px;
         transition: all 0.6s ease-out;
-        background: url(/img/bg.png);
-    }
-    .bgColor{
-        transition: all 1.3s;
-        background-color: white;
-        color: black;
-        box-shadow: 0 0 10px 5px #333;
     }
     .rightNav{
         text-align: center;
     }
     .burger{
         display: block;
+        background-color: #000;
+    }
+    .bgColor{
+        transition: all 1.3s;
+        background-color: white;
+        color: #000;
+        box-shadow: 0 0 10px 5px #333;
     }
     .hNav-resp{
         height: 70px;
