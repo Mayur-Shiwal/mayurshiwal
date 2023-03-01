@@ -69,9 +69,9 @@ html{
 }
 .bgColor{
     transition: all 1.3s;
-    background-color: white;
     color: #000;
-    box-shadow: 0 0 10px 5px #333;
+    background-color: black;
+    box-shadow: 0 0 10px 3px rgb(103, 97, 97);
 }
 .line{
     width: 33px;
@@ -424,7 +424,7 @@ html{
     }
     .bgColor{
         transition: all 1.3s;
-        background-color: white;
+        background-color: black;
         color: #000;
         box-shadow: 0 0 10px 5px #333;
     }
@@ -433,6 +433,7 @@ html{
     }
     .v-class-resp{
         opacity: 0;
+        color: #000;
     }
     .box-main{
         flex-direction: column-reverse;
