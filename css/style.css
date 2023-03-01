@@ -12,7 +12,6 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
     font-size: 22px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -21,13 +20,8 @@ html{
     /* border: 3px solid white;
     border-radius: 50px; */
 }
-.background{
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-}
 .navbar{
+    background-color: #000;
     display: flex;
     width: 100%;
     align-items: center;
@@ -48,7 +42,7 @@ html{
 .navlist li a{
     position: relative;
     text-decoration: none;
-    color: gainsboro;
+    color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navlist li a:after{
@@ -67,8 +61,8 @@ html{
 }
 .bgColor{
     transition: all 1.3s;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     box-shadow: 0 0 10px 5px #333;
 }
 .burger{
@@ -88,6 +82,7 @@ html{
     height: 100vh;
 }
 .box-main{
+    background-color: #000;
     width: 100%;
     height: 100vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
